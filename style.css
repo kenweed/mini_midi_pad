@@ -1,0 +1,51 @@
+html {
+    font-size: 10px;
+    background-color: #ADD8E6;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    border: .4rem solid #FF0000;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.8rem;
+    padding: 1rem .5rem;
+    transition: all 0.5s ease;
+    width: 10rem;
+    text-align: center; 
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem #black;
+}
+
+.playing {
+    transform: scale(1.3);
+    border-color: #F08080;
+    box-shadow: 0 0 1rem #F08080;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #F08080;
+}
+
